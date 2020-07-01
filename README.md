@@ -1,4 +1,5 @@
 # Dictionary and LZW Encoding
+
 This project is broken into 2 parts 
 
 Part 1: Hashtable of 3 objects.
