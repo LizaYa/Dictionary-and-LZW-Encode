@@ -1,0 +1,2 @@
+C:\Users\ליזה יאשין\Documents\uni1\COMP 2150\A4\A4Q1LizaYashin\A4Q1LizaYashin\obj\Debug\A4Q1LizaYashin.njsprojAssemblyReference.cache
+C:\Users\ליזה יאשין\Documents\uni1\COMP 2150\A4\A4Q1LizaYashin\A4Q1LizaYashin\bin\Microsoft.NodejsTools.WebRole.dll

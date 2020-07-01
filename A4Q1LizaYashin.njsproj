@@ -1,0 +1,64 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>A4Q1LizaYashin</Name>
+    <RootNamespace>A4Q1LizaYashin</RootNamespace>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2335697f-e7e2-44e4-ae3d-8abe83cfc305</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Main.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>False</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Dictionary.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Encoder.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="HashTable.js" />
+    <Content Include="IntHash.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="KeyValueHash.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="LinkedList.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Main.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="NodeLL.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="StringHash.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Tests.js">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+</Project>
